@@ -1,5 +1,22 @@
 body {
 	font-family: monospace;
-	text-align: justify;
 	padding-left: 5%;
+	background-color: #618685;
+}
+
+.left, .right {
+		background-color: #c2d4dd;
+		padding: 20px;
+		float: left;
+		width: 40%;
+}
+
+@media screen and (max-width: 800px){
+		.left, .right {
+				width: 80%;
+		}
+
+		body {
+				font-size: 4.5vw;
+		}
 }
